@@ -10,15 +10,24 @@
         position: relative;
         margin-top: 175px;
       }
+      a.mail {
+        color:#65524D;
+        text-decoration: underline;
+      }
+      a.mail:hover {
+        color:#FFFCF9;
+      }
     </style>
   </head>
   <body>
     <div class="head">
-      <h1>
-          BooBoo!
-        <br>
-          The Puppy Formerly Known as Brutus
-      </h1>
+      <a class="home" href="index.html">
+        <h1>
+              BooBoo!
+            <br>
+              The Puppy Formerly Known as Brutus
+        </h1>
+      </a>
       <div class="menu">
         <h3>
           <nav>
@@ -32,9 +41,9 @@
       </div>
     </div>
     <div class="contact">
-      <a href=mailto:adriannaalfe@gmail.com>Book BooBoo for your event</a>
+      <a class="mail" href=mailto:adriannaalfe@gmail.com?subject=Booking>Book BooBoo for your event</a>
       <br><br>
-      <a href=mailto:adriannaalfe@gmail.com>Send BooBoo fanmail</a>
+      <a class="mail" href=mailto:adriannaalfe@gmail.com?subject=Fanmail>Send BooBoo fanmail</a>
     </div>
   </body>
 </html>
